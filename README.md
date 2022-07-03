@@ -1,3 +1,9 @@
+# TODO: Custom dataset
+1. rrxio/rrxio/launch/custom.launch : topic names, config file names，timeshift_cam_imu, start, duration.
+2. rrxio/rrxio/launch/configs/custom_visual.info : qCM, MrMc
+3. custom_visual.yaml: camera intrinsics
+4. custom_radar_calib.yaml: radar
+
 # RRxIO - Robust Radar Visual/Thermal Inertial Odometry
 
 RRxIO offers robust and accurate state estimation even in challenging visual conditions. RRxIO combines radar ego velocity estimates and Visual Inertial Odometry (VIO) or Thermal
