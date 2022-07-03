@@ -1,7 +1,7 @@
 # TODO: Custom dataset
-1. rrxio/rrxio/launch/custom.launch : topic names, config file names，timeshift_cam_imu, start, duration.
+1. rrxio/rrxio/launch/custom.launch : topic names √, config file names √，timeshift_cam_imu √, start, duration.
 2. rrxio/rrxio/launch/configs/custom_visual.info : qCM, MrMc
-3. custom_visual.yaml: camera intrinsics
+3. custom_visual.yaml: camera intrinsics√
 4. custom_radar_calib.yaml: radar
 
 # RRxIO - Robust Radar Visual/Thermal Inertial Odometry
