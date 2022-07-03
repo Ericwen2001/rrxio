@@ -1,0 +1,13 @@
+###### Camera Calibration File For Cam 0 ######
+image_width: 640
+image_height: 512
+camera_name: cam0
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [ 372.51, 0.0, 318.77, 0.0, 372.51, 253.24, 0.0, 0.0, 1.0 ]
+distortion_model: equidistant
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [ 0.013404032824313381, 0.013570186060580948, -0.011005228038287808, 0.0040591597486 ]
