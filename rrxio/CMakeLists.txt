@@ -33,15 +33,15 @@ target_link_libraries(rrxio_rosbag_loader_25 ${catkin_LIBRARIES} ${YamlCpp_LIBRA
 
 ## umcomment the following lines for online mode
 
-cd_add_executable(rrxio_node_10 src/nodes/rrxio_node.cpp)
+cs_add_executable(rrxio_node_10 src/nodes/rrxio_node.cpp)
 target_compile_definitions(rrxio_node_10 PRIVATE ROVIO_NMAXFEATURE=10 ROVIO_UPDATE_SOURCE=0)
 target_link_libraries(rrxio_node_10 ${catkin_LIBRARIES} ${YamlCpp_LIBRARIES} ${OpenCV_LIBRARIES})
 
-cd_add_executable(rrxio_node_15 src/nodes/rrxio_node.cpp)
+cs_add_executable(rrxio_node_15 src/nodes/rrxio_node.cpp)
 target_compile_definitions(rrxio_node_15 PRIVATE ROVIO_NMAXFEATURE=15 ROVIO_UPDATE_SOURCE=0)
 target_link_libraries(rrxio_node_15 ${catkin_LIBRARIES} ${YamlCpp_LIBRARIES} ${OpenCV_LIBRARIES})
 
-cd_add_executable(rrxio_node_25 src/nodes/rrxio_node.cpp)
+cs_add_executable(rrxio_node_25 src/nodes/rrxio_node.cpp)
 target_compile_definitions(rrxio_node_25 PRIVATE ROVIO_NMAXFEATURE=25 ROVIO_UPDATE_SOURCE=0)
 target_link_libraries(rrxio_node_25 ${catkin_LIBRARIES} ${YamlCpp_LIBRARIES} ${OpenCV_LIBRARIES})
 
