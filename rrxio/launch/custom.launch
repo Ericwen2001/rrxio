@@ -20,7 +20,7 @@
     <!--  TODO custom_visual.info  -->
     <arg name="config" default="$(find rrxio)/launch/configs/custom_visual.info"/>
     <!-- TODO custom.yaml -->
-    <arg name="camera_config" default="$(arg rosbag_dir)/custom.yaml"/>
+    <arg name="camera_config" default="$(arg rosbag_dir)/custom_visual.yaml"/>
     <!-- edited -->
     <arg name="timeshift_cam_imu" default="-0.0764812404133244"/>
     <arg name="topic_cam" default="/camera/color/image_raw"/>
