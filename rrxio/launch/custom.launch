@@ -28,7 +28,7 @@
     <arg name="radar_calib" default="$(arg rosbag_dir)/custom_radar_calib.yaml"/>
     <!--  TODO Not sure -->
     <arg name="topic_imu" default="/imu/data"/>
-    <arg name="topic_radar_trigger" default="/mmWaveDataHdl/RScan_middle"/>
+    <arg name="topic_radar_trigger" default="/mmWaveDataHdl/RScan_middle_range"/>
     <arg name="topic_radar_scan" default="/mmwaveDataHdl/RScan_middle"/>
     
     <node pkg="rrxio" type="rrxio_rosbag_loader_$(arg N)" name="rrxio" output="screen" clear_params="False" launch-prefix="bash -c 'sleep 1; $0 $@' ">
