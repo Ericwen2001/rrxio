@@ -20,7 +20,7 @@
 
     <arg name="config" default="$(find rrxio)/launch/configs/custom_visual.info"/>
     <arg name="camera_config" default="$(arg rosbag_dir)/custom_visual.yaml"/>
-    <arg name="timeshift_cam_imu" default="-0.0764812404133244"/>
+    <arg name="timeshift_cam_imu" default="1.119834105708969"/>
     <arg name="topic_cam" default="/sensor_platform/camera_visual/img"/>
 
     <arg name="radar_calib" default="$(arg rosbag_dir)/custom_radar_calib.yaml"/>
