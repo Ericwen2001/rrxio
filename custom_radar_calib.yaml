@@ -1,8 +1,8 @@
 ## EXtrinsic calibration of body frame to radar frame
 # translation of radar frame expressed in body frame
-l_b_r_x: 0.032
-l_b_r_y: 0.044
-l_b_r_z: -0.106
+l_b_r_x: -0.066
+l_b_r_y: -0.034
+l_b_r_z: -0.004
 
 # rotation radar frame to body frame
 q_b_r_w: 1
