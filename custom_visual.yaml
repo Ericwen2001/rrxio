@@ -1,5 +1,5 @@
-image_width: 640
-image_height: 480
+image_width: 540
+image_height: 960
 camera_name: cam0
 camera_matrix:
   rows: 3
